@@ -1,0 +1,52 @@
+
+
+.smalltitle{
+    margin-left: 1vw;
+
+
+
+}
+.postimg{
+    cursor: pointer;
+    width:15vw;
+    margin:1vw;
+    height: 50vh;
+    width: 20vw;
+    object-fit: cover;
+
+}
+.postimg:hover{
+    transform: scale(1.08);
+    transition-duration: 200ms;
+ 
+ 
+}
+.smallpostimg{
+    cursor: pointer;
+    width:10vw;
+    margin:1vw;
+    height: 25vh;
+    width: 20vw;
+    object-fit: cover;
+
+}
+.smallpostimg:hover{
+    transform: scale(1.08);
+    transition-duration: 200ms;
+ 
+ 
+}
+.rowposts{
+    margin:1vw;
+    display: flex;
+    overflow-x: scroll;
+ 
+}
+.rowposts::-webkit-scrollbar{
+    display: none;
+}
+
+.row{
+    margin: 1hvw;
+
+}
